@@ -61,7 +61,7 @@
     &none   &none  &kp DLLR  &kp PRCNT  &kp CARET &none     &none     &kp N4  &kp N5  &kp N6  &none  &none
     &none   &none  &kp EXCL  &kp AT     &kp HASH  &none     &none     &kp N1  &kp N2  &kp N3  &none  &none
     &none   &none  &none     &none      &none     &kp BSPC  &kp BSPC  &kp N0  &none   &none   &none  &none
->;            >;
+            >;
         };
 
         raise_layer {
