@@ -23,6 +23,17 @@
        zmk,physical-layout = &layout_ortho_4x12_all1u;
     };
 
+	combos {
+        compatible = "zmk,combos";
+        
+        combo_quote {
+            timeout-ms = <50>;        // 同時押しと判定する時間（ミリ秒）
+            key-positions = <6 18>;   // U(6) と J(18) の位置
+            bindings = <&kp SQT>;     // 送信するキー（シングルクォート）
+            layers = <0>;             // 有効にするレイヤー（通常は基本レイヤー）
+        };
+    };
+
     macros {
       ZMK_MACRO(thumbs_up,
 		wait-ms = <1>;
