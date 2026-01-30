@@ -34,7 +34,7 @@
         };
         combo_single_quote {
             timeout-ms = <50>;        // 同時押しと判定する時間（ミリ秒）
-            key-positions = <9 20>;   // U(6) と J(18) の位置
+            key-positions = <8 20>;   // U(6) と J(18) の位置
             bindings = <&kp SQT>;     // 送信するキー（シングルクォート）
             layers = <0>;             // 有効にするレイヤー（通常は基本レイヤー）
         };
