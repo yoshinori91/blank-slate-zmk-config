@@ -28,14 +28,26 @@
         
         combo_double_quote {
             timeout-ms = <50>;        // 同時押しと判定する時間（ミリ秒）
-            key-positions = <7 19>;   // U(6) と J(18) の位置
-            bindings = <&kp DQT>;     // 送信するキー（シングルクォート）
+            key-positions = <7 19>;   // u j
+            bindings = <&kp DQT>;
             layers = <0>;             // 有効にするレイヤー（通常は基本レイヤー）
         };
         combo_single_quote {
             timeout-ms = <50>;        // 同時押しと判定する時間（ミリ秒）
-            key-positions = <8 20>;   // U(6) と J(18) の位置
-            bindings = <&kp SQT>;     // 送信するキー（シングルクォート）
+            key-positions = <8 20>;   // k i
+            bindings = <&kp SQT>;
+            layers = <0>;             // 有効にするレイヤー（通常は基本レイヤー）
+        };
+        combo_coln {
+            timeout-ms = <50>;        // 同時押しと判定する時間（ミリ秒）
+            key-positions = <15 16>;  // f d
+            bindings = <&kp COLON>;
+            layers = <0>;             // 有効にするレイヤー（通常は基本レイヤー）
+        };
+        combo_semi_coln {
+            timeout-ms = <50>;        // 同時押しと判定する時間（ミリ秒）
+            key-positions = <14 15>;  // s i
+            bindings = <&kp SEMI>;
             layers = <0>;             // 有効にするレイヤー（通常は基本レイヤー）
         };
     };
